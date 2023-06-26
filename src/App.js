@@ -1,10 +1,14 @@
 import { ThemeProvider } from "styled-components";
 import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
+
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
+
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import Skills from "./components/Skills";
+
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -27,6 +31,7 @@ function App() {
         <Body>
           <HeroSection />
           <Wrapper>
+            <Skills />
           </Wrapper>
         </Body>
       </Router>
