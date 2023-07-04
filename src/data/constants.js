@@ -72,4 +72,15 @@ export const experiences = [
       ],
       doc: "",
     },
-  ];
+];
+
+export const education = [
+  {
+    id: 0,
+    img: "",
+    school: "Mock school",
+    date: "Oct 2099 - Sep 2099",
+    desc: "Mock desc.",
+    degree: "Mock degree",
+  },
+];
