@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 
 import styled from "styled-components";
 
@@ -34,6 +35,9 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience />
+          </Wrapper>
+          <Wrapper>
+            <Education />
           </Wrapper>
         </Body>
       </Router>
