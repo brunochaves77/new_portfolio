@@ -10,6 +10,7 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
 
 import styled from "styled-components";
 
@@ -38,6 +39,7 @@ function App() {
           </Wrapper>
           <Wrapper>
             <Education />
+            <Contact />
           </Wrapper>
         </Body>
       </Router>
