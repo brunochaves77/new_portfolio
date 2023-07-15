@@ -84,3 +84,25 @@ export const education = [
     degree: "Mock degree",
   },
 ];
+
+export const projects = [
+  {
+    id: 9,
+    title: "Mock title",
+    date: "Jun 2099 - Jul 2099",
+    description:
+      "Mock desc",
+    image:
+      "",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "",
+  },
+];
