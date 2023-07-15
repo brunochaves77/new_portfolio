@@ -12,6 +12,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 import styled from "styled-components";
 
@@ -38,6 +39,7 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
+          <Projects />
           <Wrapper>
             <Education />
             <Contact />
