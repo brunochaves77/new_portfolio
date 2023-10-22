@@ -25,20 +25,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z064GYZDEK"></script>
     <script>
-      var googleAnalyticsId = process.env.REACT_APP_GOOGLE_ANALYTICS_ID;
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = "https://www.googletagmanager.com/gtag/js?id=" + googleAnalyticsId;
-      document.head.appendChild(script);
-    </script>
-    <script>
-      var googleAnalyticsId = process.env.REACT_APP_GOOGLE_ANALYTICS_ID;
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', googleAnalyticsId);
+      gtag('config', 'G-Z064GYZDEK');
     </script>
 
     <title>Bruno Dev</title>
